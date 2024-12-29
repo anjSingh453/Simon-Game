@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0;  
+    font-family: 'Arial', sans-serif; 
+    color: #333;  
+}
+
+h1 {
+    font-size: 3rem;  
+    margin: 20px 0;  
+}
+
+h2 {
+    font-size: 1.5rem;  
+    margin: 10px 0;  
+    color: #555;  
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack the rows */
+}
+
+.line-one, .line-two {
+    display: flex; /* Use flexbox for button rows */
+    justify-content: center; /* Center buttons in each row */
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+    font-size: 2rem; /* Increase font size for button numbers */
+    display: flex; /* Use flexbox for centering text */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn:hover {
+    transform: scale(1.05); 
+}
+
+.yellow {
+    background-color: #e78932;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: #4CAF50;  /* Change to a more distinct color for user input */
+}
+
