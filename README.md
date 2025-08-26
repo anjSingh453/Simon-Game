@@ -8,4 +8,6 @@ The Simon Game is a classic memory game where players must repeat a sequence of 
 - CSS
 - JavaScript
 
+## Application Preview
+![image alt](https://github.com/anjSingh453/Simon-Game/blob/main/SIMONGame.png?raw=true)
  
